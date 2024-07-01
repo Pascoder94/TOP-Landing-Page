@@ -64,13 +64,70 @@ button {
     border-radius: 4px;
 }
 
-img {
+.main-img {
     height: 300px;
     width: 550px;
 }
 
+.info {
+    text-align: center;
+    padding: 35px;
+    font-weight: bolder;
+    font-size: 30px;
+}
 
+.img-container {
+    display:flex;
+    justify-content: center;
+    gap:5rem;
+    margin:10px 0;
+    flex-wrap: wrap;
+    min-width: 800px;
+}
 
+.img-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
 
+.card-container {
+    display:flex;
+    justify-content:center;
+    height: 100px;
+    gap:5rem;
+
+}
+
+.card {
+    width: 200px;
+    font-size: 22px;
+}
+
+.quote-container {
+    background: #E5E7EB;
+ 
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 750px;
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.signature {
+    font-size: 25px;
+    font-weight: bold;
+    align-self:center;
+    width:600px;
+    margin-left: 800px;
+}
 
 
