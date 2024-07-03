@@ -54,7 +54,7 @@ h1 {
     color:#E5E7EB
 }
 
-button {
+.button1 {
     background-color: #3882f6;
     border:none;
     color:white;
@@ -130,4 +130,27 @@ button {
     margin-left: 800px;
 }
 
+.blue-container {
+    background-color:#3882f6;
+    height: 70px;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 4px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    color:#f9faf8;
+}
+
+.item1 {
+    font-weight: bold;
+}
+
+.button2 {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color:#f9faf8;
+    padding: 8px 32px;
+    border-radius:4px;
+}
 
